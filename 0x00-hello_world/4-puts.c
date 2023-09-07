@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 /**
  * main - this prints hello, puts
  *
