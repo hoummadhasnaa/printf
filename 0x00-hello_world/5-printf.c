@@ -2,9 +2,7 @@
 /**
  * main - this is print for the function printf
  *
- * Description: 'printf'
- *
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
