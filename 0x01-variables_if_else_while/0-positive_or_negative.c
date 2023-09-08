@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints a random number of variables    
+ * main - Prints a random number of variables.    
  *
  * Return: Always 0.
- */
+*/
 int main(void)
 {	
 	int n;
