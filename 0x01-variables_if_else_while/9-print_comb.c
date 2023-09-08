@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of single-digit numbers,they should be printed in ascending order.
+ * main - Prints all possible combinations of single-digit numbers, they should be printed in ascending order.
  *
  * Return: Always 0.
  */
