@@ -1,28 +1,25 @@
 #include <stdio.h>
 
 /**
-  * main - Prints the sum of Even Fibonacci numbers
-  * less than 4000000.
-  *
-  * Return: Nothing!
-  */
+ * main - print sum of multiples of 3 or 5 below 1024
+ * Return: 0
+ */
+
 int main(void)
 {
-	int i = 0;
-	long j = 1, k = 2, sum = k;
+	int n;
+	int sum;
 
-	while (k + j < 4000000)
+	sum = 0;
+
+	for (n = 0; n < 1024; n++)
 	{
-		k += j;
-
-		if (k % 2 == 0)
-			sum += k;
-
-		j = k - j;
-
-		++i;
+		if ((n % 3 == 0) || (n % 5 == 0))
+		{
+			sum += n;
+		}
 	}
+	printf("%d\n", sum);
 
-	printf("%ld\n", sum);
 	return (0);
 }
